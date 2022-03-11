@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ACME</title>
 </head>
 <body>
     <header class="header">
@@ -13,27 +14,28 @@
                 <p>ACME</p>
             </div>
             <div class="nav-content">
-                <li><a>Home</a> </li>
-                <li><a>About</a> </li>
-                <li><a>Shop</a> </li>
-                <li><a>Donate</a> </li>
-                <li><a>contact</a> </li>
-                <li><a>Home</a> </li>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Shop</a> </li>
+                <li><a href="#">Donate</a> </li>
+                <li><a href="#">contact</a> </li>
+                <li><button class="cart"><img class="cartimg"src="imgs/shopping-cart.png"></button></li>
+                <li><span id="cartcount">0</span></li>
             </div>
         </nav>
         <div class="heder-content">
             <h1>Serving you since 1989.</h1>
             <p>Acme Outdoors is an outdoor and adventure shop located in the Boatheouse District in Oklahoma City.</p>
-            <button>Shop Merch</button>
+            <button class="header-btn">Shop Merch</button>
         </div>
     </header>
     <section class="section-1">
         <div class="text-section1-up">
-            <div>
+            <div class="section1-text-left">
                 <p>WAYS TO SUPPORT</p>
-                <h2>Support Acme Outdoors</h2>
+                <h2>Support Acme Outdoors.</h2>
             </div>
-            <div>
+            <div class="section1-text-right">
                 <p>COVID-19 has forced us to close our retail space, but we need support from patrons like yourself now more than ever. Below, we've listed the best ways to help us trough this season.</p>
             </div>
         </div>
@@ -53,43 +55,75 @@
         </div>
     </section>
     <section class="section-2">
-        <div>
+        <div class="section2-content">
             <h2>
                 How we're Kepping You safe during COVID-19.
             </h2>
             <p>
                 As an outdoor shop, we've taken preacautionary meansures to ensure the safety of all our customers and team members.
             </p>
-            <button>Read Our Statement</button>
+            <button class="btn2">Read Our Statement</button>
         </div>
     </section>
     <section class="section3">
         <div>
             <p>SHOP PRODUCTS</p>
-            <h3>Open 24/7/365<h3>
+            <h2>Open 24/7/365<h2>
         </div>
         <div class="section3-products">
             <div class="prod1">
-                <img>
-                <p>Withe Tent</p>
-                <p>$ 200,00 USD</p>
-                <button>Details</button>
+                <img src="imgs/prod1.jpeg" alt="withe Tent">
+                <p class="prodname">Withe Tent</p>
+                <p class="prodprice">$ 200,00 USD</p>
+                <button class="btnprod">Details</button>
             </div>
             <div class="prod2">
-                <img>
-                <p>Tin coffe Tumbler</p>
-                <p>$ 35,00 USD</p>
-                <button>Details</button>
+                <img src="imgs/prod2.jpeg" alt="Tin Coffee Tumbler">
+                <p class="prodname">Tin coffe Tumbler</p>
+                <p class="prodprice">$ 35,00 USD</p>
+                <button class="btnprod">Details</button>
             </div>
             <div class="prod3">
-                <img>
-                <p>Blue Canvas Pack</p>
-                <p>$ 200,00 USD <span>$145,00 USD</span></p>
-                <button>Details</button>
+                <img src="imgs/prod3.jpeg" alt="Blue Canvas Pack">
+                <p class="prodname">Blue Canvas Pack</p>
+                <p class="prodprice">$ 200,00 USD <span id="olderprice">$145,00 USD</span></p>
+                <button class="btnprod">Details</button>
             </div>
-            <button>View All Products</button>
+         </div>
+         <div class="allprod">
+        <button class="btnall">View All Products</button>
         </div>
     </section>
-    <section></section>
+    <section class="section-4">
+        <div class="blankspace">
+            
+        </div>
+        <div class="section4-content">
+            <h2>Shop Local.</h2>
+            <p>
+                We know that during COVID-19, a lot of folks around the city and state are feeling uneasy about the future - we're not sure what the futere holds either.            
+            </p>
+            <p>
+                That said: we know that we love making sure you have the gear you need for you adventures, and we're going to keep doing that -with our team- untill the city tells us we can't.
+            </p>
+            <p>
+                But as long as folks like yourself support small businesses around the city, then we'll be here - every day, making sure your ordens arrive on time.<br>------
+            </p>
+            <p>
+                Jane & John Doe <br> Acme Outdoors
+            </p>
+            <img class="shopimg"src="imgs/shop.jpeg" alt="Shopping">
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>ACME</p>
+        </div>
+        <div>
+            <li><img src="imgs/twitter-sign.png" alt="twitter"></li>
+            <li><img src="imgs/facebook.png" alt="facebook"></li>
+            <li><img src="imgs/instagram.png" alt="instagram"></li>
+        </div>
+    </footer>
 </body>
 </html>
